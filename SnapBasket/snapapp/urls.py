@@ -6,5 +6,7 @@ from snapapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('home/', views.home),
+    path('', views.home),
+    path('about/', views.about),
+    path('contact/', views.contact),
 ]
